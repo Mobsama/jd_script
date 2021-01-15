@@ -64,7 +64,7 @@ jobs:
                   TRIGGER_KEYWORDS: ${{ secrets.TRIGGER_KEYWORDS }}
                   #CRONTAB
                   CRONTAB: ${{ '0 0 0,16 * * *' }} #定时在每天0和下午4点整执行一次
-                  SYNCURL: https://github.com/LFT888/LFT/raw/main/jd_joy_reward.js #此处填写你要执行的js
+                  SYNCURL: https://raw.githubusercontent.com/LFT888/LFT/main/jd_joy_reward.js #此处填写你要执行的js
 
 
  */
